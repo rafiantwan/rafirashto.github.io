@@ -132,7 +132,7 @@ input:focus , textarea:focus {
     width: 100%;
 }
 
-nav,
+ nav,
 .scroll,
 .header {
     opacity: 1;
@@ -187,6 +187,7 @@ nav,
 
 #landing-page {
     min-height: 100vh;
+    
 }
 
 
@@ -197,13 +198,15 @@ nav,
     transform: translate(-50% , -50%);
     width: 100%;
     max-width: 1000px;
-    padding: 0 30px ;
+    padding: 0 30px;
+    
 }
 
 .header__para {
     font-size: 24px;
     line-height: 2;
     max-width: 450px;
+    
 }
 
 .social__list {
@@ -634,7 +637,6 @@ SHAPES
 
 .shape {
     position: fixed;
-
 }
 
 .shape--0 {
@@ -643,41 +645,41 @@ SHAPES
 }
 .shape--1 {
     top: 15vh;
-    left: 50vh;
+    left: 50vw;
 }
 .shape--2 {
     top: 15vh;
-    left: 80vh;
+    left: 80vw;
 }
 .shape--3 {
     top: 50vh;
-    left: 5vh;
+    left: 5vw;
 }
 .shape--4 {
     top: 50vh;
-    left: 50vh;
+    left: 50vw;
 }
 .shape--5 {
     top: 50vh;
-    left: 80vh;
+    left: 80vw;
 }
 .shape--6 {
     top: 80vh;
-    left: 5vh;
+    left: 5vw;
 }
 .shape--7 {
     top: 80vh;
-    left: 50vh;
+    left: 50vw;
 }
 .shape--8 {
     top: 80vh;
-    left: 80vh;
+    left: 80vw;
 }
 
 
 /* small phone, tablets, large smar phones */
 
-@media (max-width: 786px) {
+@media (max-width: 768px) {
     .title {
         font-size: 80px;
     }
